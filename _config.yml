@@ -6,11 +6,11 @@ permalink:        /:categories/:slug/
 # relative_permalinks: true
 
 # Setup
-title:            "Ove's Notes"
-tagline:          'Notes about This and That and Softwares'
-description:      'An absurdist. Learning Computers, One Abstraction Layer a Year.' 
-url:              https://ovebepari.github.io
-logo:             /favicon.ico
+title:            "Raihan's Blog"
+tagline:          'Notes about This and That and Software'
+description:      'your moto or resolutions' 
+url:              https://raihantarek.github.io
+logo:             /github.png
 baseurl:          ''
 
 plugins:
@@ -19,12 +19,12 @@ plugins:
   - jekyll-sitemap
 
 author:
-  name: 'ovebepari'
-  url: https://github.com/ovebepari
-  twitter: "ovebepari"
+  name: 'shahnazpriya'
+  url: https://github.com/shahnazpriya
+  
 
 # Post related global variables
-defaultpostimage: /post_images/ove.jpg
+defaultpostimage: /public/logo.png
 
 # For a global message in the head
 message: 

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Raihan's Blog - Shahnaz Priya
+---
+
+<img src="/images/index.jpg" alt="programming background with a girl working with codes on computer!">
+
+</br>
+<small>Here, in this website, you will find my works and thoughts, and get to know me a bit more.</small>
+
+<!-- <h3>Pick a Category</h3> -->
+
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="{{ category_name | slugize }}">
+    <h3 class="category-head">{{ category_name }}</h3>
+    <ul>
+      {% for post in site.categories[category_name] %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+      {% endfor %}
+    </div>
+    </ul>
+{% endfor %}

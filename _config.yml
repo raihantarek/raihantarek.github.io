@@ -1,0 +1,32 @@
+# Dependencies
+highlighter:      rouge
+
+# Permalinks
+permalink:        /:categories/:slug/
+# relative_permalinks: true
+
+# Setup
+title:            "Shahnaz's Blog"
+tagline:          'Writing on my works and thoughts'
+description:      'your moto or resolutions' 
+url:              https://shahnazpriya.github.io
+logo:             /github.png
+baseurl:          ''
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+author:
+  name: 'shahnazpriya'
+  url: https://github.com/shahnazpriya
+  
+
+# Post related global variables
+defaultpostimage: /public/logo.png
+
+# For a global message in the head
+message: 
+
+exclude: []

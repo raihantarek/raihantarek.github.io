@@ -6,10 +6,10 @@ permalink:        /:categories/:slug/
 # relative_permalinks: true
 
 # Setup
-title:            "Shahnaz's Blog"
+title:            "Raihan’s Space"
 tagline:          'Writing on my works and thoughts'
-description:      'your moto or resolutions' 
-url:              https://shahnazpriya.github.io
+description:      'Hola, Bienvenidos!' 
+url:              https://raihantarek.github.io
 logo:             /github.png
 baseurl:          ''
 
@@ -19,12 +19,12 @@ plugins:
   - jekyll-sitemap
 
 author:
-  name: 'shahnazpriya'
-  url: https://github.com/shahnazpriya
+  name: 'raihan'
+  url: https://github.com/raihantarek
   
 
-# Post related global variables
-defaultpostimage: /public/logo.png
+# Post-related global variables
+defaultpostimage: /public/image.jpg
 
 # For a global message in the head
 message: 

@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img src="../public/logo.png" alt="bon bhai logo" style="margin-left: auto; margin-right: auto;"/>
+      <img src="../image/image.png" alt="logo" style="margin-left: auto; margin-right: auto;"/>
       <h2>
         <a href="{{ '/' }}">
           {{ site.title }}
@@ -15,7 +15,7 @@
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
+        `layout: page` in the front-matter. See the readme for usage.
       {% endcomment %}
 
       {% assign pages_list = site.pages %}
@@ -52,7 +52,7 @@
         <a href="#" target="_blank" style="border-bottom: none;"><i class="fab fa-quora"></i></a>
 
         &nbsp;
-        <a href="mailto:shahnazpriya.cse@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:raihantarek.cse@gmail.com"><i class="fa fa-envelope"></i></a>
         
       </span>
       {% comment %}

@@ -6,8 +6,8 @@ permalink:        /:categories/:slug/
 # relative_permalinks: true
 
 # Setup
-description:      'Hola, bienvenidos al' 
-title:            "Espacio de Raihan"
+title:      'Hola, Bienvenidos al' 
+description:            "Espacio de Raihan"
 tagline:          'Writing on my works and thoughts'
 url:              https://raihantarek.github.io
 logo:             /github.png
